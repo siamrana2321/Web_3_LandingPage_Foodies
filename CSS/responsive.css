@@ -1,0 +1,400 @@
+/* For Responsive */
+
+
+/* For Tab = 992px*/
+
+@media (max-width: 1266px) {
+    .hero-text .text h1 {
+        font-size: 5rem;
+    }
+    .hero-text .text p {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1055px) {
+    .background {
+        height: 66vh;
+    }
+    .hero-text .text h1 {
+        font-size: 4rem;
+    }
+    .sponsor {
+        width: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .background {
+        height: 88vh;
+    }
+    /* Nav bar  */
+    .nav-ul {
+        gap: 5px;
+    }
+    /* Hero Section */
+    .hero-text .text h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 55px;
+    }
+    .hero-text .text .hero-button,
+    .gallary .hero-button {
+        margin-top: 13px;
+    }
+    .hero-img img {
+        width: 100%;
+    }
+    .hero-img-3 {
+        right: 200px;
+    }
+    .sponsor {
+        width: 60%;
+    }
+    .about-text h2,
+    .features-text h2,
+    .pricing-text h2,
+    .gallary h2 {
+        font-size: 3rem;
+    }
+    /* Features Section */
+    .feature-info h1 {
+        font-size: 1.8rem;
+    }
+    .feature-info p {
+        font-size: 15px;
+    }
+    /* Pricing table */
+    .pricing-box {
+        width: 24%;
+    }
+    /* Gallary */
+    .gallary {
+        text-align: center;
+    }
+    /* Contact */
+    .subscribe {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 837px) {
+    .background {
+        height: 62vh;
+    }
+}
+
+
+/* For Mobile = 768px */
+
+@media (max-width: 768px) {
+    #landing-page {
+        width: 90%;
+    }
+    /* Nav bar  */
+    header {
+        margin-top: 26px;
+        height: 55px;
+        top: 0;
+        background: #F3FCF7;
+        position: sticky;
+    }
+    .LD {
+        display: none;
+    }
+    .SD {
+        visibility: visible;
+    }
+    .navSD-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 55px;
+    }
+    .navSD-area .name-a {
+        font-weight: 500;
+    }
+    .navSD-area .hamburger {
+        margin-right: 10px;
+        height: 39px;
+        width: 47.06px;
+        border: 2px solid #06C167;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .navSD-area .hamburger:hover {
+        border: 2px solid #30a76e;
+    }
+    .navSD-area .hamburger i {
+        color: #06C167;
+    }
+    .navSD-area .hamburger i:hover {
+        color: #30a76e;
+    }
+    /* Hero Section */
+    .hero-area {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 120px;
+    }
+    .text p,
+    .text h1 {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .sponsor {
+        width: 100%;
+        top: 100%;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+    .sponsor div {
+        justify-content: center;
+        height: auto;
+        margin-top: 16px;
+    }
+    .HR-area,
+    .hero-text {
+        width: 100%;
+    }
+    .hero-text {
+        margin-bottom: 15px;
+    }
+    .hero-text .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-button {
+        width: 200px;
+    }
+    .HR-image-area {
+        height: auto;
+        right: 0;
+    }
+    .hero-img {
+        flex-direction: column;
+        right: 0px;
+    }
+    .hero-img-2,
+    .hero-img-3 {
+        top: 95%;
+        width: 37%;
+        border-radius: 25px;
+        right: 28%;
+    }
+    .hero-img-3 {
+        top: 90%;
+    }
+    /* Service Section */
+    #service-area {
+        flex-wrap: wrap;
+    }
+    .service {
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .service .logos {
+        font-size: 26px;
+    }
+    /* About Section */
+    #about-area,
+    #about-area2 {
+        flex-direction: column;
+        height: auto;
+    }
+    #about-area p,
+    #about-area h2,
+    #about-area2 p,
+    #about-area2 h2 {
+        text-align: center;
+    }
+    .about-text li {
+        font-size: 23px;
+        margin-top: 5px;
+    }
+    .about-img,
+    .about-text-area {
+        width: 100%;
+        justify-content: center;
+    }
+    .about-img img {
+        width: inherit;
+    }
+    .about-text-area {
+        margin-top: 30px;
+    }
+    #about-area2 {
+        height: auto;
+    }
+    .score {
+        flex-direction: column;
+        line-height: 40px;
+    }
+    .hero-button {
+        width: 100%;
+    }
+    /* Features Section */
+    #features-area {
+        height: auto;
+        align-items: center;
+    }
+    .features {
+        width: 80%;
+        height: auto;
+    }
+    .feature-box .box {
+        width: auto;
+        height: 300px;
+    }
+    .feature-box {
+        flex-direction: column;
+    }
+    .feature-info button {
+        width: 50%;
+    }
+    /* Pricing table */
+    .pricing-text {
+        margin-bottom: 10px;
+    }
+    .pricing-table {
+        flex-direction: column;
+    }
+    .pricing-box {
+        width: 60%;
+        height: 30rem;
+        margin-top: 20px;
+    }
+    #pricing-area,
+    .gallary-area {
+        height: auto;
+    }
+    /* Gallary */
+    .gallary {
+        text-align: center;
+    }
+    .gallary h2 {
+        font-size: 3rem;
+    }
+    .gallary-area .hero-button {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    /* Contact */
+    .contact-area {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .contact-area p {
+        width: 70%;
+    }
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .name {
+        width: 100%;
+    }
+    .contact-box {
+        margin-bottom: 50px;
+        align-items: center;
+    }
+    .subscribe {
+        flex-direction: column;
+        height: auto;
+    }
+    .subscribe button,
+    .subscribe input {
+        margin: 10px 0px 0px 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .sponsor {
+        top: 100%;
+    }
+    .hero-img-3 {
+        top: 88.6%;
+    }
+    .pricing-box {
+        height: 450px;
+    }
+}
+
+@media (max-width: 540px) {
+    .hero-img-2,
+    .hero-img-3 {
+        width: 40%;
+        right: 28%;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-img-2,
+    .hero-img-3 {
+        width: 45%;
+        right: 28%;
+    }
+}
+
+@media (max-width: 445px) {
+    .hero-img-2,
+    .hero-img-3 {
+        width: 50%;
+        right: 26%;
+    }
+    .hero-img-3 {
+        top: 88%;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-img-2,
+    .hero-img-3 {
+        width: 54%;
+        right: 26%;
+    }
+}
+
+@media (max-width: 392px) {
+    .hero-img-2,
+    .hero-img-3 {
+        top: 95%;
+        width: 54%;
+    }
+    .hero-img-3 {
+        top: 88%;
+    }
+}
+
+@media (max-width: 374px) {
+    .hero-img-2,
+    .hero-img-3 {
+        width: 61%;
+        right: 21%;
+    }
+}
+
+@media (max-width: 355px) {
+    .hero-img-2,
+    .hero-img-3 {
+        right: 20%;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
+
+
+/* For Responsive */
